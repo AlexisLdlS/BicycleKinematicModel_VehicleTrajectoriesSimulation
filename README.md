@@ -4,6 +4,7 @@ This repository implements the **kinematic bicycle model**, widely used in vehic
 
 ## 🚗 Model equations
 The bicycle kinematics are given by:
+<img width="734" height="356" alt="image" src="https://github.com/user-attachments/assets/fc092ec0-99bd-4364-9c3c-af0983251ee2" />
 
 <img width="183" height="155" alt="image" src="https://github.com/user-attachments/assets/b7b77d9e-afe4-461d-8b74-b1403919063c" />
 
