@@ -5,13 +5,8 @@ This repository implements the **kinematic bicycle model**, widely used in vehic
 ## 🚗 Model equations
 The bicycle kinematics are given by:
 
-\[
-\dot{x} = v \cos(\theta + \beta), \quad
-\dot{y} = v \sin(\theta + \beta), \quad
-\dot{\theta} = \frac{v}{L} \cos(\beta) \tan(\delta), \quad
-\dot{\delta} = \omega, \quad
-\beta = \tan^{-1}\left(\frac{l_r}{L} \tan(\delta)\right)
-\]
+<img width="183" height="155" alt="image" src="https://github.com/user-attachments/assets/b7b77d9e-afe4-461d-8b74-b1403919063c" />
+
 
 where:
 - \(v\): vehicle speed [m/s]
