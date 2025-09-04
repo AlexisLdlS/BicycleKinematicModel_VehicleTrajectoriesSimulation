@@ -20,7 +20,7 @@ where:
 - δ (delta): steering angle [rad]
 - ω (omega): steering angle rate [rad/s]
 - L: wheelbase [m]
-- l_r: distance from rear axle to CoM [m]
+- l_r: distance from rear axle to CoG [m]
 
 ## 📊 Features
 This project includes:
