@@ -15,12 +15,12 @@ The bicycle kinematics are given by:
 
 
 where:
-- \(v\): vehicle speed [m/s]
-- \(\theta\): heading [rad]
-- \(\delta\): steering angle [rad]
-- \(\omega\): steering angle rate [rad/s]
-- \(L\): wheelbase [m]
-- \(l_r\): distance from rear axle to CoM [m]
+- v: vehicle speed [m/s]
+- θ (theta): heading [rad]
+- δ (delta): steering angle [rad]
+- ω (omega): steering angle rate [rad/s]
+- L: wheelbase [m]
+- l_r: distance from rear axle to CoM [m]
 
 ## 📊 Features
 This project includes:
