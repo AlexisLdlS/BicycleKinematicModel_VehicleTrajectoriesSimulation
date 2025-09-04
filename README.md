@@ -1,6 +1,6 @@
 # Bicycle Kinematic Model – Vehicle Trajectory Simulation
 
-This repository implements the **kinematic bicycle model** in Python, widely used in vehicle dynamics and autonomous driving for trajectory tracking and control validation, and demonstrates its application by generating different trajectories**.  
+This repository implements the **kinematic bicycle model** in Python, widely used in vehicle dynamics and autonomous driving for trajectory tracking and control validation, and demonstrates its application by generating different trajectories.  
 It is a compact project designed to showcase fundamental concepts in **vehicle dynamics, trajectory generation, and control inputs**.
 
 ## 🚗 Model equations
