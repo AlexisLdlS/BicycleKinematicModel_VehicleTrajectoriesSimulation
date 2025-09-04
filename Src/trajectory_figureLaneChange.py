@@ -29,19 +29,31 @@ w_data = np.zeros(N)
 
 # Vehicle parameters
 v_const = 6.0  # [m/s]
-lanechange_start = 2.0   # [s]
-lanechange_duration = 6.0  # [s]
+lanechange_start = 4.0   # [s]
+lanechange_duration = 2.0  # [s]
 lanechange_end = lanechange_start + lanechange_duration
+delta_max = 0.25             # rad  (~14.3°) ajustable
 
 # Define control inputs
 v_data[:] = v_const
+W0 = (2*np.pi*delta_max) / lanechange_duration
+W0 = np.clip(W0, -model.w_max, model.w_max)  
 
 for i, t in enumerate(t_data):
     if lanechange_start <= t <= lanechange_end:
-        tau = (t - lanechange_start) / lanechange_duration * 2 * np.pi
-        w_data[i] = 0.6 * np.sin(tau)
+        tau = (t - lanechange_start) / lanechange_duration  # 0..1
+        delta = delta_max * np.sin(2*np.pi*tau)  # steering angle
+        # w = (delta - delta_prev)/dt
+        if i == 0:
+            w_data[i] = 0.0
+        else:
+            w_data[i] = (delta - delta_prev) / sample_time
+        delta_prev = delta
     else:
         w_data[i] = 0.0
+        delta_prev = 0.0
+
+
 
 # Run simulation
 for i in range(N):
