@@ -32,6 +32,15 @@ This project includes:
   - Square
 - Export of trajectory data (`*.txt`) and trajectory plot (`*.png`).
 
+<img width="1536" height="754" alt="lanechange" src="https://github.com/user-attachments/assets/f16b58e2-3742-4460-8f8c-687a78d540fe" />
+
+
+<img width="1920" height="1440" alt="figure8" src="https://github.com/user-attachments/assets/674cfa4c-64b4-4460-8640-adfc9d2ad3da" />
+
+
+<img width="799" height="598" alt="image" src="https://github.com/user-attachments/assets/bf683a08-9753-4731-b9de-638855372929" />
+
+
 
 ## ▶️ Usage
 1. Clone this repository:
