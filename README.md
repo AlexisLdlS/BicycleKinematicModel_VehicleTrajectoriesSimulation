@@ -44,5 +44,6 @@ ej. python trajectory_figure8.py
 
 4. Outputs:
 figure8.png → trajectory plot
+
 figure8.txt → exported time, velocity, and steering inputs
 
